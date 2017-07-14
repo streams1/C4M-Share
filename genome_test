@@ -1,10 +1,9 @@
 f = open("/share/data/day5/puzzle.txt")
 lines = f.readlines()
-print lines
 list = []
 for w in lines:
-    parts = w.strip()
-    parts = w.split()
+    w2 = w.strip()
+    parts = w2.split()
     list = list + parts
-    print list
+print list
     
