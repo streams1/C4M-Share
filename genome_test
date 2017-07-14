@@ -1,2 +1,10 @@
-print "dog"
-print "cat"
+f = open("/share/data/day5/puzzle.txt")
+lines = f.readlines()
+print lines
+list = []
+for w in lines:
+    parts = w.strip()
+    parts = w.split()
+    list = list + parts
+    print list
+    
