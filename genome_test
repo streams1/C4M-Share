@@ -1,9 +1,0 @@
-f = open("/share/data/day5/puzzle.txt")
-lines = f.readlines()
-list = []
-for w in lines:
-    w2 = w.strip()
-    parts = w2.split()
-    list = list + parts
-print list
-    
