@@ -1,0 +1,25 @@
+#f=open("/share/data/day5/puzzle.txt")
+#lines=f.readlines()
+#list=[]
+#for w in lines:
+ # n=w.strip()
+#  parts=n.split()
+ # x=parts[0].replace(",","")
+ # y=parts[1].replace(",","")
+ # z=parts[2].replace(",","")
+#  a=parts[3].replace(",","")
+ # b=parts[4].replace(",","")
+#  list += list +x+y+z+a+b
+
+
+
+
+
+#print parts [0]
+
+
+
+
+
+
+print "England is my city."
